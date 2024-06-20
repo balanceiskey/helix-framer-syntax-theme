@@ -1,0 +1,85 @@
+inherits = "tokyonight"
+
+constant = { fg = "orange" }
+string = { fg = "purple" }
+comment = { fg = "commentgray" }
+punctuation = { fg = "punctuation" }
+operator = { fg = "punctuation" }
+type = { fg = "yellow" }
+function = { fg = "teal", modifiers = []}
+
+error =   { fg = "deep-pink" }
+warning = { fg = "yellow" }
+hint =    { fg = "teal" }
+info =    { fg = "blue" }
+
+keyword = { fg = "blue" }
+"keyword.control" = { fg = "blue" }
+"keyword.control.import" = { fg = "blue" }
+"keyword.function" = { fg = "blue" }
+
+namespace = { fg = "fg" }
+
+"markup.bold" = { fg = "deep-pink", modifiers = ["bold"] }
+"markup.heading" = { fg = "fg", modifiers = ["bold"] }
+"markup.heading.marker" = { fg = "deep-pink", modifiers = ["bold"] }
+"markup.italic" = { fg = "pink", modifiers = ["italic"] }
+"markup.list" = { fg = "yellow" }
+"markup.link.text" = { fg = "pink" }
+"markup.link.url" = { fg = "commentgray" }
+"markup.link.label" = { fg = "purple" }
+"markup.raw" = { fg = "teal" }
+
+variable = { fg = "fg" }
+"variable.parameter" = { fg = "light-blue" }
+"variable.other.member" = { fg = "light-blue" }
+"variable.builtin" = { fg = "deep-pink" }
+
+"ui.background" = { bg = "bg", fg = "fg" }
+"ui.cursor" = { modifiers = ["reversed"] }
+"ui.cursor.match" = { bg = "bg-highlight" }
+"ui.cursorline.primary" = { bg = "line-higlight" }
+"ui.linenr" = { fg = "line-number-gray" }
+"ui.linenr.selected" = { fg = "active-line-number-gray" }
+
+"ui.help" = { bg = "menu-bg", fg = "fg" }
+
+"ui.menu" = { bg = "menu-bg", fg = "punctuation" }
+"ui.menu.selected" = { bg = "menu-bg-selected", fg = "#ffffff" }
+
+"ui.selection" = { bg = "bg-highlight" }
+"ui.selection.primary" = { bg = "bg-highlight" }
+
+"ui.statusline" = { bg = "bg", fg = "fg" }
+"ui.statusline.inactive" = { bg = "bg", fg = "line-number-gray" }
+"ui.statusline.normal" = { bg = "bg", fg = "blue" }
+"ui.statusline.insert" = { bg = "bg", fg = "deep-pink" }
+"ui.statusline.select" = { bg = "bg", fg = "orange" }
+"ui.text" = { bg = "bg", fg = "fg" }
+"ui.window" = { fg = "panel-divider" }
+"ui.virtual.wrap" = { fg = "line-number-gray" }
+
+
+[palette]
+
+fg = "#eeeeee"
+bg = "#181818"
+purple = "#bb88ff"
+blue = "#00bbff"
+teal = "#22ccdd"
+yellow = "#ffcc66"
+light-blue = "#aaddff"
+orange = "#ff8866"
+pink = "#eeaaff"
+commentgray = "#666666"
+punctuation = "#999999"
+line-number-gray = "#333333"
+active-line-number-gray = "#777777"
+deep-pink = "#ff5599"
+line-highlight = "#4b64b6"
+bg-highlight = "#3a3d41"
+panel-divider = "#252525"
+menu-bg = "#212121"
+menu-bg-selected = "#3A3A3C"
+# errorbar = "#ff3366"
+
